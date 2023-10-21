@@ -3,20 +3,20 @@
     <form (submit)="OnSubmit()" method="get">
         <div class="block">
             <label for="username">Username:</label>
-            <input [(ngModel)]="name" type="text" id="name" name="name" placeholder="Enter your username">
+            <input [(ngModel)]="name" type="text" id="name" name="name" placeholder="name">
         </div>
         <div class="block">
             <label for="login">Login:</label>
-            <input [(ngModel)]="login" type="text" id="login" name="login" placeholder="Enter your login">
+            <input [(ngModel)]="login" type="text" id="login" name="login" placeholder="user123">
         </div>
         <div class="block">
             <label for="email">Email:</label>
-            <input [(ngModel)]="email" type="email" id="email" name="email" placeholder="Enter your email">
+            <input [(ngModel)]="email" type="email" id="email" name="email" placeholder="user123@gmail.com">
         </div>
         <div class="block">
             <label for="password">Password:</label>
-            <input [(ngModel)]="password" type="password" id="password" name="password" placeholder="Enter your password">
+            <input [(ngModel)]="password" type="password" id="password" name="password" placeholder="password">
         </div>
-        <button class="btnSub" type="submit">Зарегистрироваться</button>
+        <button class="btnSubmit" type="submit">Submit</button>
     </form>
 </div>

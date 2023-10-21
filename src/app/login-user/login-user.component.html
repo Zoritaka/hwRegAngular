@@ -1,0 +1,14 @@
+<div class = "container">
+    <h2 align = center  >Authorization</h2>
+    <form method="get" (ngSubmit)="onSubmit()">
+        <div class = "block">
+            <label for="login">Login</label>
+            <input [(ngModel)]="login" type="text" id = "login" name="login" placeholder="Name">
+        </div>
+        <div class = "block">
+            <label for="password">Password</label>
+            <input [(ngModel)]="password" type="password" id = "Password" name="password" placeholder="Password">
+        </div>
+        <button type="submit" class = "btnSubmit">Login</button>
+    </form>
+</div>
