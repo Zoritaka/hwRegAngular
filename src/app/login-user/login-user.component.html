@@ -9,6 +9,7 @@
             <label for="password">Password</label>
             <input [(ngModel)]="password" type="password" id = "Password" name="password" placeholder="Password">
         </div>
-        <button type="submit" class = "btnSubmit">Login</button>
+        <button type="submit" class = "btnSubmit">Login</button>\
+        <p *ngIf="this.login != null">{{this.data}}</p>
     </form>
 </div>

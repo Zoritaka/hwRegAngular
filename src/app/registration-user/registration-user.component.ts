@@ -18,5 +18,4 @@ export class RegistrationUserComponent {
     OnSubmit() {
       const url = 'https://api.nancydrew.me/addUser?key=X9ZO2Lqf&login=' + this.login + '&password=' + this.password+ '&name='+this.name+'&email='+this.email + '&lang=kk'
       this.httpClient.get(url).subscribe((response) => this.data = JSON.stringify(response))
-      alert(this.data)
 }}

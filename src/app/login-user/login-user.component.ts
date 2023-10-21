@@ -32,6 +32,5 @@ export class LoginUserComponent {
     this.httpClient.get('https://api.nancydrew.me/authUser?key=X9ZO2Lqf&login=' + this.login + '&password=' + this.password).subscribe(
       (response)=> this.data = JSON.stringify(response)
       )
-    alert(this.data)
   }
 }
